@@ -49,7 +49,7 @@ try:
         print("[+] Message Sent")
 
 except smtplib.SMTPAuthenticationError:
-	print("\n[+] Your Email Or Password Is Incorrect Try Again\n[+] Exiting...\n")
+	print("\n[+] Either Your Email Or Password Is Incorrect Or Enable Less Secure Apps\n[+] Exiting...\n")
 
 except smtplib.SMTPRecipientsRefused:
 	print("\n[+] Your Targets Email Is Incorrect Try Again\n[+] Exiting...\n")
