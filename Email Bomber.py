@@ -26,7 +26,7 @@ print("\033[1;32;40m\n""""{}
 | |_|   ||       || ||_|| || |_|   ||   |___ |   |  | |
 |_______||_______||_|   |_||_______||_______||___|  |_|
                                                                                                                                    
-{}\n\t[+] Welcome To Sudos's Email Bomber (•◡ •) /\n\t[+] *Ctrl + c To Stop*\n\t[+] Subscribe To Sudo On YT\n{}""".format("="*100,"="*100,"="*100))
+{}\n\t[+] Welcome To Sudo's Email Bomber (•◡ •) /\n\t[+] *Ctrl + c To Stop*\n\t[+] Subscribe To Sudo On YT\n{}""".format("="*100,"="*100,"="*100))
 
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 
